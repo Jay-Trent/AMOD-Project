@@ -1,0 +1,16 @@
+.main_container
+{
+    position: relative;
+    &_eda
+    {
+        position: absolute;
+    }
+    &_prediction 
+    {
+        position: absolute;
+    }
+    &_comparision 
+    {
+        position: absolute;
+    }
+}

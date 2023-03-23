@@ -1,0 +1,19 @@
+$primary-color:#faf2e4;
+$secondary-color:#003d29;
+*
+{
+    box-sizing: border-box;
+    margin: 0%;     
+    padding: 0%;    
+}
+
+.RemoveFromView
+{
+    display: none  !important;
+}
+
+.TopZIndex 
+{
+    z-index: 5;
+}
+

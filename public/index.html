@@ -1,24 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="dist/index.js" type="module"></script>
-  <title>Document</title>
-  <style>
-    #list {
-      list-style: none;
-      padding: 0;
-    }
-  </style>
-</head>
-<body>
-    <form>
-      
-    </form>
-    <table>
-      
-    </table>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="dist/index.js" type="module"></script>
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main_header">
+          <h1>Market Basket Analyscis</h1>
+      </div>
+      <div class="main_nav">
+        <ul class="main_nav_ul">
+          <li class="main_nav_ul_li"><a href="#" data-title="EDA" onclick="addRemoveSelection('edaTag')">EDA</a></li>
+          <li class="main_nav_ul_li"><a href="#" data-title="Prediction">Prediction</a></li>
+          <li class="main_nav_ul_li"><a href="#" data-title="Comparision">Comparision</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="main_container">
+      <div id="edaTag" class="main_container_eda" >
+        This is eda
+      </div>
+      <div class="main_container_prediction " id="predictionTag">
+        This is prediction
+      </div>
+      <div class="main_container_comparision " id="comparisionTag">
+        This is compare
+      </div>
+    </div>
+  </body>
 </html>

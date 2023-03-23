@@ -1,0 +1,15 @@
+@import "config";
+@import "navbar";
+@import "header";
+@import "container";
+
+body
+{
+    background: set-text-color($primary-color);
+    background-color: $primary-color;
+    color: #000000;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1;
+}
+
