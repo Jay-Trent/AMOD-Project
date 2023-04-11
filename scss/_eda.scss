@@ -1,0 +1,23 @@
+.main_container_eda {
+  .chart_container {
+    padding: 20px 106px 20px 35px;
+
+    &_chart {
+      text-align: justify;
+      &_title {
+        h2 {
+          font-weight: 800;
+        }
+      }
+      &_description {
+        font-size: 19px;
+        text-align: justify;
+      }
+      &_graph {
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+      }
+    }
+  }
+}

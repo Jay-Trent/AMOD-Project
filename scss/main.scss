@@ -1,7 +1,13 @@
 @import "config";
 @import "navbar";
+@import "loader";
 @import "header";
 @import "container";
+@import "eda";
+@import "compare";
+@import 'edaNav';
+@import 'selectButton';
+@import 'prediction';
 
 body
 {
@@ -9,7 +15,7 @@ body
     background-color: $primary-color;
     color: #000000;
     height: 100vh;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
     line-height: 1;
 }
 

@@ -1,0 +1,117 @@
+.prediction_form {
+  width: 100%;
+  padding: 25px;
+
+  &_itemset {
+    margin-bottom: 5%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    .select
+    {
+      margin-left: 5px
+    }
+    .option {
+        justify-content: center;
+    }
+  }
+  &_selectProduct {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    &_selected,
+    &_list {
+      overflow: hidden;
+      margin: 0px 50px 0px 50px;
+      width: 450px;
+      border: 1px solid $secondary-color;
+      border-radius: 20px;
+      text-align: center;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-items: center;
+
+      h3 {
+        background-color: $secondary-color;
+        color: #fff;
+        margin: 0px;
+        width: 100%;
+        padding: 2%;
+      }
+    }
+
+    &_selected {
+      .box {
+        overflow-y: auto;
+        height: 350px;
+        width: 400px;
+        margin-top: 5%;
+
+        &_products {
+          min-height: 40px;
+          border-radius: 5px;
+          display: flex;
+          margin-top: 1px;
+          align-items: center;
+          justify-content: flex-start;
+          background-color: $secondary-color;
+          color: #fff;
+          padding: 0 30px 0 10px;
+        }
+      }
+    }
+  }
+  &_submit {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    button {
+      padding: 15px;
+      border-radius: 15px;
+      font-weight: 800;
+
+      color: $secondary-color;
+      background-color: $primary-color;
+      border: 1px solid $secondary-color;
+
+      &:hover {
+        background-color: $secondary-color;
+        color: $primary-color;
+        border: none;
+      }
+    }
+  }
+}
+.prediction_result {
+  &_table {
+    display: flex;
+    justify-content: center;
+
+    table {
+      border: 1px solid $secondary-color;
+      width: 85%;
+      margin: 25px 0;
+      thead {
+        background-color: $secondary-color;
+        color: $primary-color;
+        
+      }
+      tbody {
+        background-color: #edffe8;
+      }
+      tr {
+        padding: 3px;
+      }
+    }
+  }
+}
+
+.product_select {
+  margin-top: 5%;
+}
+
+

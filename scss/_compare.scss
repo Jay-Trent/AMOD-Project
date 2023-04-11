@@ -1,0 +1,81 @@
+.compare {
+  &_wrapper {
+    &_container {
+      margin-top: 40px;
+      width: 100vw;
+      display: flex;
+      flex-direction: column;
+      &_header {
+        width: 1200px;
+        h4 {
+          margin: 0;
+          text-align: center;
+          font-weight: 800;
+        }
+      }
+      &_table {
+        display: flex;
+        width: 1200px;
+        justify-content: center;
+        table {
+          border: 1px solid $secondary-color;
+          width: 90%;
+          thead {
+            background-color: $secondary-color;
+            color: $primary-color;
+            th {
+              font-size: 13px;
+            }
+          }
+          tbody {
+            background-color: #edffe8;
+          }
+          tr {
+            padding: 3px;
+            td {
+              text-align: center;
+            }
+          }
+        }
+      }
+      &_headerSummary {
+        padding-left: 60px;
+        width: 600px;
+        &_header {
+          h4 {
+            margin: 0;
+            text-align: center;
+            font-weight: 800;
+          }
+        }
+        &_summary {
+          &_tag {
+            display: flex;
+            flex-direction: row;
+            border: 1px solid;
+            .name {
+              flex: 1;
+              text-align: center;
+              background-color: #edffe8;
+              font-weight: 800;
+            }
+            .result {
+              flex: 1;
+              text-align: center;
+
+              background-color: #edffe8;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.moveTORight {
+  align-items: end;
+}
+.addRightPadding {
+  padding-right: 60px !important;
+  padding-left: 0px !important;
+}

@@ -1,0 +1,23 @@
+.eda_nav {
+  position: fixed !important;
+  z-index: 10;
+  top: 35vh;
+  right: 0;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  background-color: $secondary-color;
+  color: $primary-color;
+  &_wrapper {
+    &_ul {
+      &_li {
+        margin: 18px;
+        a {
+          text-decoration: none;
+          span {
+            margin-left: 5px;
+          }
+        }
+      }
+    }
+  }
+}
